@@ -1,0 +1,10 @@
+var ndel = args.slice(1).join(" ");
+    
+    msg.channel.bulkDelete(ndel)
+    const delembe= new Discord.MessageEmbed()
+    .setColor('#34eb46')
+    .setTitle('done ')
+    .setDescription(`ho eliminato: ${ndel} messagi `);
+
+    msg.channel.send(delembe);
+    
