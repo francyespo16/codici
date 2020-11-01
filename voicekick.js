@@ -12,5 +12,5 @@
     .setColor('#eb3434')
     .setTitle(`sei stato disconneso da una chat vocale di: ${msg.guild.name}`)
     
-    discoUser.send(discopvt);
+    discoUser.send(discopvt); 
    
