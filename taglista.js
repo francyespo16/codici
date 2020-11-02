@@ -1,2 +1,6 @@
-const rechan = client.channels.cache.get('606893577162719246');
-    rechan.send(` <@&720229653695954955>`)
+
+// inserisci in ROLEID l'id del ruolo
+//inserisci in IDCANALE  dove far taggare il ruolo
+
+const rechan = client.channels.cache.get('IDCANALE');
+    rechan.send(` <@&IDRUOLO>`)
